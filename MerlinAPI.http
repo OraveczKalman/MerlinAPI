@@ -1,0 +1,7 @@
+@MerlinAPI_HostAddress = http://localhost:5269
+
+GET {{MerlinAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+POST {{MerlinAPI_HostAddress}}/user/ 
